@@ -1,0 +1,36 @@
+nav {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  position: fixed;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.nav-icons {
+  color: #000000;
+  font-size: 1.6rem;
+  transition: color 0.5s ease;
+}
+
+.nav-icons:active,
+.nav-icons.active {
+  color: #0051ff;
+  border-bottom: 2px solid #0051ff;
+}
+
+#settings,
+#card,
+#currency {
+  font-size: 1.9rem;
+}
