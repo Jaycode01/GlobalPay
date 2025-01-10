@@ -11,7 +11,7 @@ import { PiDownload } from "react-icons/pi";
 function WelcomeUser() {
   return (
     <>
-      <div className="parent">
+      <div className="wrapper">
         <article className="welcome_user">
           <div className="top_box">
             <div className="image_box">

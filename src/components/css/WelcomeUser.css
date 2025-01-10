@@ -1,6 +1,5 @@
 article {
-  padding: 30px 10px;
-  padding-bottom: 70px;
+  padding: 30px 10px 70px 10px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -57,9 +56,9 @@ img {
   font-size: 2rem;
 }
 
-.parent {
+/* .parent {
   position: relative;
-}
+} */
 
 .action_box {
   display: flex;
