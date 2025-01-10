@@ -1,0 +1,29 @@
+.balance {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.balance_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.balance_text {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.balance_digit {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.eye_show {
+  align-items: center;
+  color: #fff;
+  font-size: 1.7rem;
+}
