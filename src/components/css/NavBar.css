@@ -2,6 +2,7 @@ nav {
   background-color: #ffffff;
   padding: 1.5rem;
   position: fixed;
+  box-shadow: 3px 3px 3px 3px #4d4b4bfd;
   height: 80px;
   bottom: 0;
   width: 100%;
