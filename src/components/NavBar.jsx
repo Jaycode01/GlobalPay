@@ -15,26 +15,31 @@ function NavBar() {
           <li>
             <Link to="/" className="nav-icons active">
               <GrHomeRounded />
+              Home
             </Link>
           </li>
           <li>
             <Link to="/transactions" className="nav-icons">
               <IoBarChartSharp />
+              Transaction
             </Link>
           </li>
           <li>
             <Link to="/currency" className="nav-icons" id="currency">
               <BsCurrencyExchange />
+              Convert
             </Link>
           </li>
           <li>
             <Link to="/card" className="nav-icons" id="card">
               <IoCardOutline />
+              Card
             </Link>
           </li>
           <li>
             <Link to="/settings" className="nav-icons" id="settings">
               <CiSettings />
+              Settings?
             </Link>
           </li>
         </ul>
